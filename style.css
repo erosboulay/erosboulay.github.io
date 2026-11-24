@@ -57,8 +57,20 @@ ul.topnav li a:hover {
   padding: 20px;
 }
 
-.content-text{
+.content-box{
   min-height: 200px;
-    background-color: #ffffff;
-    padding: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.content-profile-picture{
+  margin: 0px auto 15px auto;
+  width: clamp(96px, 25vw, 220px);
+  height: clamp(96px, 25vw, 220px);
+  border-radius: 50%;
+  background-color: #333333;
+}
+
+.content-text{
+  width: 100%;
 }
