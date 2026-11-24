@@ -1,6 +1,12 @@
-body {
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
 }
 
 header, footer {
@@ -9,12 +15,14 @@ header, footer {
 }
 
 header {
-    background-color: #f1f1f1;
+  flex: 0 1 auto;
+  background-color: #f1f1f1;
 }
 
 footer {
-    color: #f1f1f1;
-    background-color: #333333;
+  flex: 0 1 40px;
+  color: #f1f1f1;
+  background-color: #333333;
 }
 
 /* Style the topnav */
@@ -42,6 +50,7 @@ ul.topnav li a:hover {
 
 .content{
   display: flex;
+  flex: 1 1 auto;
   justify-content: center;
   align-items: center;
   background-color: lightgrey;
@@ -49,8 +58,7 @@ ul.topnav li a:hover {
 }
 
 .content-text{
-    min-width: 300px;
-    min-height: 300px;
+  min-height: 200px;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 20px;
 }
