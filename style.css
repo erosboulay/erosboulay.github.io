@@ -65,12 +65,13 @@ ul.topnav li a:hover {
 }
 
 .content-profile-picture{
-  margin: 0px auto 15px auto;
-  width: clamp(96px, 25vw, 220px);
-  height: clamp(96px, 25vw, 220px);
+  margin: clamp(0px, 1.5vw, 15px) auto clamp(15px, 1.5vw + 15px, 30px) auto;
+  width: clamp(96px, 25vw, 200px);
+  height: clamp(96px, 25vw, 200px);
   border-radius: 50%;
   background-color: #333333;
 }
+
 
 .content-text{
   width: 100%;
