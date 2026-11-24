@@ -20,7 +20,7 @@ header {
 }
 
 footer {
-  flex: 0 1 40px;
+  flex: 0 1 auto;
   color: #f1f1f1;
   background-color: #333333;
 }
