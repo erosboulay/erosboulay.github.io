@@ -10,18 +10,16 @@ body {
 }
 
 header, footer {
+  flex: 0 1 auto;
   padding: 10px;
   text-align: center;
 }
 
 header {
-  flex: 0 1 auto;
   background-color: #f1f1f1;
 }
 
 footer {
-  flex: 0 1 auto;
-  color: #f1f1f1;
   background-color: #333333;
 }
 
@@ -69,13 +67,35 @@ ul.topnav li a:hover {
   width: clamp(96px, 25vw, 200px);
   height: clamp(96px, 25vw, 200px);
   border-radius: 50%;
-  background-image: url("profile_picture_240px.jpg");
+  background-image: url("images/profile_picture_240px.jpg");
   background-size:     cover;                     
   background-repeat:   no-repeat;
   background-position: center center;
 }
 
-
 .content-text{
   width: 100%;
+}
+
+/* Style socials*/
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+
+.socials li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.social-icon{
+  height: 32px;
+  width: 32px;
 }
