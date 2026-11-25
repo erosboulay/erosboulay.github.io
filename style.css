@@ -60,6 +60,7 @@ ul.topnav li a:hover {
   min-height: 200px;
   background-color: #ffffff;
   padding: 20px;
+  border-radius: 3%;
 }
 
 .content-profile-picture{
