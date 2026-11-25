@@ -69,7 +69,7 @@ ul.topnav li a:hover {
   width: clamp(96px, 25vw, 200px);
   height: clamp(96px, 25vw, 200px);
   border-radius: 50%;
-  background-image: url("profile_picture_240px.png");
+  background-image: url("profile_picture_240px.jpg");
   background-size:     cover;                     
   background-repeat:   no-repeat;
   background-position: center center;
