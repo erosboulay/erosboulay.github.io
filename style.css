@@ -51,8 +51,12 @@ ul.topnav li a:hover {
   flex: 1 1 auto;
   justify-content: center;
   align-items: center;
-  background-color: lightgrey;
   padding: 20px;
+
+  background-image: url("images/halftone.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .content-box{
