@@ -57,7 +57,7 @@ ul.topnav li a:hover {
 
 .content-box{
   aspect-ratio: 1/1;
-  min-height: 200px;
+  min-height: max(200px, fit-content);
   background-color: #ffffff;
   padding: 20px;
   border-radius: 3%;
@@ -76,6 +76,7 @@ ul.topnav li a:hover {
 
 .content-text{
   width: 100%;
+  font-size: 1rem
 }
 
 /* Style socials*/
