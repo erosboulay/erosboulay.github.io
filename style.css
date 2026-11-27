@@ -46,17 +46,21 @@ ul.topnav li a:hover {
   color: black;
 }
 
-.content{
+.commission-content, .content{
   display: flex;
   flex: 1 1 auto;
   justify-content: center;
   align-items: center;
   padding: 20px;
 
-  background-image: url("images/halftone.svg");
+  background-image: url("images/halftone_pink.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.commission-content{
+  background-image: url("images/halftone_blue.svg");
 }
 
 .content-box{
